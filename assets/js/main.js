@@ -1,7 +1,3 @@
-$('html,body').animate({
-  scrollTop: $(window.location.hash).offset().top
-});
-
 jQuery(document).ready(function($) {
 
     /* ======= Scrollspy ======= */
@@ -17,7 +13,7 @@ jQuery(document).ready(function($) {
              $('#header').removeClass('navbar-fixed-top');
          }
     });
-   
+    scrollTop: $(window.location.hash).offset().top 
     /* ======= ScrollTo ======= */
     $('a.scrollto').on('click', function(e){
         
