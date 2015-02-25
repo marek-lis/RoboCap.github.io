@@ -17,12 +17,16 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #17baef;
+  color: #eebf3f;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #eebf3f;
 }
 a {
   color: #17baef;
@@ -381,7 +385,7 @@ pre code {
   color: #0c86ae;
 }
 .contact .info .sub-title {
-  color: #0e98c5;
+  color: #e6ad14;
   margin-bottom: 30px;
   margin-top: 0;
 }
