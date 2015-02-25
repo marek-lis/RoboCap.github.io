@@ -80,8 +80,8 @@ pre code {
 /* ======= Header ======= */
 .header {
     padding: 10px 0;
-    background: @color;
-    color: #fff;
+    background: #fff;
+    color: @color;
     position: fixed;
     width: 100%;
     
@@ -104,7 +104,7 @@ pre code {
         font-size: 26px;
         padding-top: 10px;
         a {
-            color:#fff;
+            color: @color;
             &:hover {
                 text-decoration: none;
             }
@@ -378,7 +378,7 @@ pre code {
     
     .info {
         .sub-title {
-            color: darken(@color, 10%);
+            color: darken(@color, 30%);
             margin-bottom: 30px;
             margin-top: 0;
         }
