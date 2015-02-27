@@ -233,7 +233,6 @@ pre code {
   margin-bottom: 60px;
 }
 .about .intro {
-  max-width: 800px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
@@ -323,7 +322,7 @@ pre code {
 .features {
   padding: 80px 0;
   background: #17baef;
-  color: #fff;
+  color: #074f66;
 }
 .features .title {
   color: #074f66;
@@ -452,7 +451,7 @@ pre code {
 .contact .social-icons li.last {
   margin-right: 0;
 }
-.contact .social-icons a {
+.contact .social-icons a.logo {
   display: inline-block;
   background: #0c86ae;
   width: 48px;
@@ -470,13 +469,25 @@ pre code {
   margin-right: 8px;
   float: left;
 }
-.contact .social-icons a:hover {
+.contact .social-icons a.logo:hover {
   background: #e6ad14;
 }
-.contact .social-icons a .fa {
+.contact .social-icons a.logo .fa {
   color: #fff;
 }
-.contact .social-icons a .fa:before {
+.contact .social-icons a.logo .fa:before {
+  font-size: 26px;
+  text-align: center;
+  padding: 0;
+}
+.contact .social-icons a.text {
+  display: inline-block;
+  text-align: center;
+}
+.contact .social-icons a.text .fa {
+  color: #fff;
+}
+.contact .social-icons a.text .fa:before {
   font-size: 26px;
   text-align: center;
   padding: 0;

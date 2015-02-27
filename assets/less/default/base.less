@@ -239,7 +239,6 @@ pre code {
         margin-bottom: 60px;
     }
     .intro {
-        max-width: 800px;
         margin: 0 auto;
         margin-bottom: 60px;
     }
@@ -461,29 +460,45 @@ pre code {
            }
         }
     
-        a {
-            display:inline-block;
-            background: darken(@color, 15%);               
-            width: 48px;
-            height: 48px;
-            text-align: center;
-            padding-top: 12px;
-            .border-radius(50%);
-            margin-right: 8px;
-            float: left;
-            
-            &:hover {
-                background: darken(@color-2, 10%);
-            }
-            
-            .fa {
-                color: #fff;
-                &:before {
-                    font-size: 26px;
-                    text-align: center;
-                    padding: 0;
-                }                
-            }
+        a { 
+			&.logo {
+				display:inline-block;
+				background: darken(@color, 15%);               
+				width: 48px;
+				height: 48px;
+				text-align: center;
+				padding-top: 12px;
+				.border-radius(50%);
+				margin-right: 8px;
+				float: left;
+				
+				&:hover {
+					background: darken(@color-2, 10%);
+				}
+				
+				.fa {
+					color: #fff;
+					&:before {
+						font-size: 26px;
+						text-align: center;
+						padding: 0;
+					}                
+				}
+			}
+			&.text {
+				display:inline-block;
+				text-align: center;
+
+				.fa {
+				color: #fff;
+				&:before {
+				font-size: 26px;
+				text-align: center;
+				padding: 0;
+				}                
+				}
+			
+			}
         }
         
     }
