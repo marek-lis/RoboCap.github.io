@@ -1,8 +1,9 @@
 jQuery(document).ready(function($) {
-	
-	$('#fullpage').fullpage( {
-					css3: true,
-				scrollingSpeed: 1000
-	});
 
+	$('#fullpage').fullpage( {
+				responsive: 900
+	});
+ 
+    /* ======= Fixed header when scrolled ======= */
+    $('#header').addClass('navbar-fixed-top');
 });
