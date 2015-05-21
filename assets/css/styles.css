@@ -331,10 +331,10 @@ pre code {
   margin-bottom: 30px;
 }
 .features a {
-  color: #074f66;
+  color: #fff;
 }
 .features a:hover {
-  color: #042a36;
+  color: #fff;
 }
 .features .feature-list li {
   margin-bottom: 10px;
@@ -342,6 +342,12 @@ pre code {
 }
 .features .feature-list li .fa {
   margin-right: 5px;
+  color: #fff;
+}
+.features b {
+  color: #fff;
+}
+.features i {
   color: #fff;
 }
 /* ======= Contact Section ======= */
