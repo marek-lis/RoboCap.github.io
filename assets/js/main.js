@@ -12,5 +12,12 @@ $(document).ready(function() {
 
     /* ======= Fixed header when scrolled ======= */
     $('#header').addClass('navbar-fixed-top');
+        
+	 $('div.facebook').mouseenter(function(){
+			$(this).stop(true, false).animate({"right": "0"}, 400);	
+	 });
+	 $('div.facebook').mouseleave(function(){
+			$(this).stop(true, false).animate({"right": "-472px"}, 400);
+	});   
 
 });

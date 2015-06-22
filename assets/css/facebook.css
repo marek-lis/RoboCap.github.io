@@ -1,0 +1,33 @@
+.facebook {
+position: fixed;
+top: 183px;
+right: -462px;
+width: 490px;
+z-index: 1000;
+height: 150px;
+}
+
+.facebook img.facebook-przycisk {
+float: left;
+}
+
+.facebook .facebook-ramka {
+width: 470px;
+height: 510px;
+float: left;
+padding: 10px;
+background: #dcdcdc;
+font-size: 11px;
+}
+
+.facebook .facebook-ramka a {
+text-decoration: none;
+color: #547f0f;
+border-bottom: 1px dotted #547f0f;
+}
+
+.facebook .facebook-ramka a:hover {
+text-decoration: none;
+color: #000018;
+border-bottom: 1px dotted #000018;
+}

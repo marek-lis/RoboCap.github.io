@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->    
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/facebook.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 	<link rel="stylesheet" href="assets/css/jquery.fullPage.css">
@@ -28,6 +29,17 @@
 	<script type="text/javascript" src="assets/plugins/jquery.slimscroll.min.js"></script>
 	<script type="text/javascript" src="assets/plugins/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="assets/js/main.js"></script>  	
+	
+	<!-- Javascript for FB-->          
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "http://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.3&appId=1381891405450971";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
 </head> 
 
 <body>    
@@ -79,14 +91,26 @@
 			</div><!--//container-->
 		</section><!--//promo-->
 	</div>
+
+    <!-- ******FACEBOOK****** --> 
+	
+	<div class="facebook">
+		<img src="pictures/facebook.png" class="facebook-przycisk" alt="facebook" />
+		<div class="facebook-ramka"> 
+			<div class="fb-page" data-href="https://www.facebook.com/robocappl" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true">
+				<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/robocappl"><a href="https://www.facebook.com/robocappl">RoboCap.pl</a></blockquote>
+				</div></div>
+		</div>
+	</div>
 	
     <!-- ******ABOUT****** --> 
 	<div class="section" id="section1">
 		<section id="about1" class="about">
 			<div class="container">
 				<h2 class="title text-center">Czym jest RoboCap?</h2>
-				<p class="intro text-justify">RoboCap to zajęcia przeznaczone dla dzieci w wieku 6-14 lat organizowane przez grupę pracowników firmy <a href="http://www.pl.capgemini-sdm.com/">Capgemini we Wrocławiu</a>. 
-				W ramach zajęć dzieci biorą udział w różnorodnych projektach, podczas których uczą się planowania zadań, programowania, a także robotyki i elektroniki.
+				<p class="intro text-justify">RoboCap to zajęcia przeznaczone dla dzieci w wieku 6-14 lat organizowane przez grupę pracowników firmy <a href="http://www.pl.capgemini-sdm.com/">Capgemini we Wrocławiu</a> oraz 
+			pozytywnie zakręconych wolontariuszy spoza firmy, którzy się do inicjatywy dołączyli :-)</p>
+				<p class="intro text-justify">W ramach zajęć dzieci biorą udział w różnorodnych projektach, podczas których uczą się planowania zadań, programowania, a także robotyki i elektroniki.
 				Program został przetestowany na dzieciach pracowników firmy, które mogły poznać kulisy pracy swoich rodziców i zasiąść w ich biurze przy ich stanowiskach.
 				Aktualnie planujemy rozszerzenie działalności i skierowanie warsztatów dla dzieci z wrocławskich szkół i szpitali. Główną zaletą zajęć w ramach RoboCap jest fakt, że dzieci 
 				nie tylko uczą się przy komputerze, ale także aktywnie współpracują w grupie.
