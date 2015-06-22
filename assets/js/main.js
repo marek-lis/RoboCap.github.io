@@ -17,7 +17,7 @@ $(document).ready(function() {
 			$(this).stop(true, false).animate({"right": "0"}, 400);	
 	 });
 	 $('div.facebook').mouseleave(function(){
-			$(this).stop(true, false).animate({"right": "-472px"}, 400);
+			$(this).stop(true, false).animate({"right": "-462px"}, 400);
 	});   
 
 });
