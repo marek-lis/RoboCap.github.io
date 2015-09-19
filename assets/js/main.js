@@ -14,10 +14,20 @@ $(document).ready(function() {
     $('#header').addClass('navbar-fixed-top');
         
 	 $('div.facebook').mouseenter(function(){
+
 			$(this).stop(true, false).animate({"right": "0"}, 400);	
 	 });
 	 $('div.facebook').mouseleave(function(){
 			$(this).stop(true, false).animate({"right": "-462px"}, 400);
-	});   
-
+	});
+	var linksdata = ['Piotr Smyk', 'Łukasz Gadomski', 'Marcin Motowidło', 'Dawid Rolla', 'Tomek Łaszkiewicz', 'Krzysiu Sobkowiak', 
+		'Łukasz Łaszkiewicz', 'Marek Lis', 'Zuza Pacholczyk', 'Piotr Kałużny', 'Jacek Cząstkiewicz', 'Ty?'];
+	$("[id*='links']").mouseenter(function(){
+		$(this).attr("title", linksdata[$(this).attr("id").substr(5)]);
+	});
+	$("[id*='links']").mouseleave(function(){
+		$(this).attr("title", "");
+	});
 });
+	
+
