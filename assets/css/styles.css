@@ -265,7 +265,7 @@ pre code {
   background: white;
   display: inline;
   float: left;
-  margin: 0 5px 5px;
+  margin: 5px 10px 30px;
   padding: 5px 5px 5px;
   text-align: center;
   text-decoration: none;
@@ -281,6 +281,7 @@ pre code {
 .polaroid-images a:after {
   color: #333;
   font-size: 20px;
+  margin: 5px 10px 5px;
   content: attr(title);
   position: relative;
   top: 1px;
