@@ -262,6 +262,7 @@ pre code {
 }
 /* ======= Polaroid Photos ======== */
 .polaroid-images a {
+  height: 152px;
   background: white;
   display: inline;
   float: left;
@@ -280,7 +281,7 @@ pre code {
 }
 .polaroid-images a:after {
   color: #333;
-  font-size: 20px;
+  font-size: 10px;
   margin: 5px 10px 5px;
   content: attr(title);
   position: relative;
