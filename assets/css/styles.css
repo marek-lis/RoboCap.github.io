@@ -120,6 +120,32 @@ pre code {
 .header .logo a:hover {
   text-decoration: none;
 }
+.header .capgemini{
+  padding: 8px 30px;
+  color: #666666;
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+.header .capgemini a{
+  padding: 8px 30px;
+  color: #666666;
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+.header .capgemini a:hover {
+  color: #074f66;
+  text-decoration: none;
+}
+.header .capgemini a:focus {
+  text-decoration: none;
+}
+.header .capgemini a:active {
+  text-decoration: none;
+}
 .header .main-nav button {
   background: #074f66;
   color: #fff !important;
