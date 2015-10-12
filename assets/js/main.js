@@ -22,7 +22,7 @@ $(document).ready(function() {
 	});
 	var linksdata = ['Piotr Smyk', 'Łukasz Gadomski', 'Marcin Motowidło', 'Dawid Rolla', 'Tomek Łaszkiewicz', 'Krzysiu Sobkowiak', 
 		'Łukasz Łaszkiewicz', 'Marek Lis', 'Zuza Pacholczyk', 'Piotr Kałużny', 'Jacek Cząstkiewicz', 'Ty?', 'Marek Puchalski', 
-		'Kasia Dębowa', 'Sylwia Robak', 'Natalia Jarczyńska'];
+		'Kasia Dębowa', 'Sylwia Robak', 'Natalia Jarczyńska', 'Dagmara Krent'];
 	$("[id*='links']").mouseenter(function(){
 		$(this).attr("title", linksdata[$(this).attr("id").substr(5)]);
 	});
