@@ -90,7 +90,7 @@
 				</div><!--//navabr-collapse-->
 			</nav><!--//main-nav-->
 			
-			<!-- <div class="capgemini"><a href="http://www.capgeminisoftware.pl">Powered by <img height="20" src="pictures/Logo_Capgemini.jpg" alt="Capgemini" href="http://www.capgeminisoftware.pl"/></a></div> -->
+			<div class="capgemini"><a href="http://www.capgeminisoftware.pl">Powered by <img height="20" src="pictures/Logo_Capgemini.jpg" alt="Capgemini" href="http://www.capgeminisoftware.pl"/></a></div>
 		</div>
 </header><!--//header-->
 <div id="fullpage">
