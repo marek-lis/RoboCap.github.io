@@ -8,7 +8,7 @@
 /* Default */
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: arial, sans-serif;
   color: #444444;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -118,6 +118,32 @@ pre code {
   color: #17baef;
 }
 .header .logo a:hover {
+  text-decoration: none;
+}
+.header .capgemini{
+  padding: 8px 30px;
+  color: #666666;
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+.header .capgemini a{
+  padding: 8px 30px;
+  color: #666666;
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+.header .capgemini a:hover {
+  color: #074f66;
+  text-decoration: none;
+}
+.header .capgemini a:focus {
+  text-decoration: none;
+}
+.header .capgemini a:active {
   text-decoration: none;
 }
 .header .main-nav button {
@@ -262,11 +288,12 @@ pre code {
 }
 /* ======= Polaroid Photos ======== */
 .polaroid-images a {
+  height: 152px;
   background: white;
   display: inline;
   float: left;
-  margin: 0 15px 15px;
-  padding: 10px 10px 25px;
+  margin: 5px 10px 30px;
+  padding: 5px 5px 5px;
   text-align: center;
   text-decoration: none;
   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -280,10 +307,11 @@ pre code {
 }
 .polaroid-images a:after {
   color: #333;
-  font-size: 20px;
+  font-size: 10px;
+  margin: 5px 10px 5px;
   content: attr(title);
   position: relative;
-  top: 15px;
+  top: 1px;
 }
 .polaroid-images img {
   display: block;
@@ -331,10 +359,10 @@ pre code {
   margin-bottom: 30px;
 }
 .features a {
-  color: #074f66;
+  color: #fff;
 }
 .features a:hover {
-  color: #042a36;
+  color: #fff;
 }
 .features .feature-list li {
   margin-bottom: 10px;
@@ -342,6 +370,12 @@ pre code {
 }
 .features .feature-list li .fa {
   margin-right: 5px;
+  color: #fff;
+}
+.features b {
+  color: #fff;
+}
+.features i {
   color: #fff;
 }
 /* ======= Contact Section ======= */

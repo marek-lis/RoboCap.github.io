@@ -29,6 +29,19 @@ $(document).ready(function() {
 	$("[id*='links']").mouseleave(function(){
 		$(this).attr("title", "");
 	});
+
+	$("[id*='eventPicture']").mouseenter(function(){
+		var $text = $('.col-md-9');
+    		$text.removeClass('col-md-9').addClass('col-md-6 col-md-offset-3');
+		$(this).width(550);
+	});
+	$("[id*='eventPicture']").mouseleave(function(){
+		var $text = $('.col-md-6');
+    		$text.removeClass('col-md-6').addClass('col-md-9');
+		$text.removeClass('col-md-offset-3');
+		$(this).width(280);
+	});
+
 });
 	
 
