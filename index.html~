@@ -46,6 +46,17 @@
 	  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.3&appId=1381891405450971";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-68918634-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 </head> 
 
 <body>    
@@ -90,7 +101,7 @@
 				</div><!--//navabr-collapse-->
 			</nav><!--//main-nav-->
 			
-			<div class="capgemini"><a href="http://www.capgeminisoftware.pl">Powered by <img height="20" src="pictures/Logo_Capgemini.jpg" alt="Capgemini" href="http://www.capgeminisoftware.pl"/></a></div>
+			<!-- <div class="capgemini"><a href="http://www.capgeminisoftware.pl">Powered by <img height="20" src="pictures/Logo_Capgemini.jpg" alt="Capgemini" href="http://www.capgeminisoftware.pl"/></a></div> -->
 		</div>
 </header><!--//header-->
 <div id="fullpage">
@@ -123,12 +134,12 @@
 			pozytywnie zakręconych wolontariuszy spoza firmy, którzy się do inicjatywy dołączyli :-)</p>
 				<p class="intro text-justify">W ramach zajęć dzieci biorą udział w różnorodnych projektach, podczas których uczą się planowania zadań, programowania, a także robotyki i elektroniki.
 				Program został przetestowany na dzieciach pracowników firmy, które mogły poznać kulisy pracy swoich rodziców i zasiąść w ich biurze przy ich stanowiskach.
-				Aktualnie planujemy rozszerzenie działalności i skierowanie warsztatów dla dzieci z wrocławskich szkół i szpitali. Główną zaletą zajęć w ramach RoboCap jest fakt, że dzieci 
+				Aktualnie planujemy rozszerzenie działalności i skierowanie warsztatów dla dzieci z wrocławskich szkół, domów dziecka i szpitali. Główną zaletą zajęć w ramach RoboCap jest fakt, że dzieci 
 				nie tylko uczą się przy komputerze, ale także aktywnie współpracują w grupie.
 				</p>
 				
 				<div class="row">
-					<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="item col-md-6 col-sm-6 col-xs-12">
 						<div class="icon-holder">
 							<i class="fa fa-heart"></i>
 						</div>
@@ -139,7 +150,7 @@
 							</p>
 						</div><!--//content-->
 					</div><!--//item-->
-					<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="item col-md-6 col-sm-6 col-xs-12">
 						<div class="icon-holder">
 							<i class="fa fa-users"></i>
 						</div>
@@ -149,7 +160,7 @@
 							</p>
 							</div><!--//content-->
 					</div><!--//item-->
-					<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="item col-md-6 col-sm-6 col-xs-12">
 						<div class="icon-holder">
 							<i class="fa fa-plus-circle"></i>
 						</div>
@@ -159,8 +170,18 @@
 							jeśli masz jakieś sugestie, skontaktuj się z nami. Chcemy w ten sposób podzielić się swoją pasją z jak największą ilością dzieci.
 							</p>
 						</div><!--//content-->
-					</div><!--//item-->           
-					               
+					</div><!--//item-->
+					<div class="item col-md-6 col-sm-6 col-xs-12">
+						<div class="icon-holder">
+							<i class="fa fa-dollar"></i>
+						</div>
+						<div class="content">
+							<h3 class="sub-title">Zajęcia są nieodpłatne</h3>
+							<p>W zamian za dzielenie się wiedzą i inspirowanie do rozwoju pobieramy tylko jedną opłatę - uśmiech :) Zadowolone dzieci, to zadowoleni prowadzący, a nam daje to mnóstwo energii do przygotowywania kolejnych zajęć.
+							</p>
+						</div><!--//content-->
+					</div><!--//item-->            
+  
 				</div><!--//row-->
 			</div><!--//container-->
 		</section><!--//about-->
@@ -187,7 +208,6 @@
 					<a id="links3" href="" title=""><img height="120" src="pictures/dawid_rolla.png" alt="Dawid Rolla" /></a>
 					<a id="links13" href="" title=""><img height="120" src="pictures/kdebowa.jpg" alt="Kasia Dębowa" /></a>
 					<a id="links9" href="" title=""><img height="120" src="pictures/piotr_kaluzny.jpg" alt="Piotr Kałużny" /></a>
-					<a id="links17" href="" title=""><img height="120" src="pictures/pawel_blach.JPG" alt="Paweł Błach" /></a>
 					<a id="links12" href="" title=""><img height="120" src="pictures/marek_puchalski.jpg" alt="Marek Puchalski" /></a>
 					<a id="links11" href="" title=""><img height="120" src="pictures/ty.png" alt="Ty?" /></a>					
 				</div>
@@ -241,7 +261,30 @@
 		<div class="container">
 			<h2 class="title text-center">Wydarzenia</h2>
 
-			<!-- Cap wks odsłona 1-->
+			<!-- Dom Dziecka-->
+			<div class="row">    
+			<br>
+			<div class="col-md-3 col-sm-3 text-center">
+			<a class="img-container"><img src="pictures/dd_edition_main.jpg" alt="miniatura" style="width:280px"></a>
+			</div>
+			<div class="col-md-9 col-sm-5 text-justify">
+			<h3>Wrocławskie Centrum Opieki Wychowania i Adopcji - 09.10.2015</h3>
+			<div class="row">
+			<div class="col-xs-12">
+			<p>
+				W ubiegłą sobotę mieliśmy zaszczyt przeprowadzić zajęcia dla dzieci z wrocławskiego Domu Dziecka. 
+				Piętnaścioro wychowanków spędziło tę sobotę poznając się z robotami (makeblock)...
+			</p>
+			<p class="lead"><a class="btn btn-default" href="dd2015-1.html">Czytaj dalej</a></p>
+			</div>
+			<div class="col-xs-3"></div>
+			</div>
+			<br>
+			</div>
+			</div>
+			<hr>
+			
+			<!-- Cap wks odsłona 2-->
 			<div class="row">    
 			<br>
 			<div class="col-md-3 col-sm-3 text-center">
@@ -414,8 +457,7 @@
 				</div><!--//contact-inner-->
 				<br>
 				
-					<div class="item col-md-3 col-sm-6 col-xs-12"> </div>				
-					<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="item col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
 						<div class="icon-holder">
 							<ul class="social-icons list-inline">
 								<li class="last">
@@ -428,13 +470,37 @@
 						</div>
 
 					</div>
-					<div class="item col-md-4 col-sm-6 col-xs-12">
+					<div class="item col-md-6 col-sm-6 col-xs-12">
 						<div class="icon-holder">
 							<ul class="social-icons list-inline">
 								<li class="last">
 									<a href="https://github.com/RoboCap" class="logo"><i class="fa fa-github"></i></a> 
 									<div class="info text-center">
 										<h4 class="sub-title">Odwiedź nas na GitHub</h4>
+									</div>
+								</li>              
+							</ul>
+						</div>
+					</div>
+					<div class="item col-md-4 col-md-offset-2 col-sm-6 col-xs-12">
+						<div class="icon-holder">
+							<ul class="social-icons list-inline">
+								<li class="last">
+									<a href="https://twitter.com/robocappl" class="logo"><i class="fa fa-twitter"></i></a> 
+									<div class="info text-center">
+										<h4 class="sub-title">Twittujemy jako @robocappl</h4>
+									</div>
+								</li>              
+							</ul>
+						</div>
+					</div>
+					<div class="item col-md-6 col-sm-6 col-xs-12">
+						<div class="icon-holder">
+							<ul class="social-icons list-inline">
+								<li class="last">
+									<a href="https://www.facebook.com/robocappl" class="logo"><i class="fa fa-facebook"></i></a> 
+									<div class="info text-center">
+										<h4 class="sub-title">Polub nas na Facebook'u</h4>
 									</div>
 								</li>              
 							</ul>
