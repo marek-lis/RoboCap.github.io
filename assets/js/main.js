@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 	$('#fullpage').fullpage( {	
 	
-	sectionsColor: ['#17baef', '#f5f5f5', '#f5f5f5', '#17baef', '#f5f5f5', '#17baef'],
+	sectionsColor: ['#17baef', '#f5f5f5', '#f5f5f5', '#17baef', '#f5f5f5', '#f5f5f5', '#17baef'],
 				responsive: 900,
-				anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'kontakt'],
+				anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'partnerzy','kontakt'],
 				menu: '#menu',
 				scrollOverflow: true
 

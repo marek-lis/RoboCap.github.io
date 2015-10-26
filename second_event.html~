@@ -60,8 +60,7 @@
 						<li class="nav-item"><a href="index.html#oNas">O nas</a></li>
 						<li class="nav-item"><a href="index.html#zespol">Nasz zespół</a></li>
 						<li class="nav-item"><a href="index.html#coRobimy">Co robimy</a></li>
-						<li class="nav-item"><a href="index.html#wydarzenia">Wydarzenia</a></li>  
-						<li class="nav-item"><a href="index.html#partnerzy">Partnerzy</a></li>                     
+						<li class="nav-item"><a href="index.html#wydarzenia">Wydarzenia</a></li>                   
 						<li class="nav-item last"><a href="index.html#kontakt">Kontakt</a></li>
 					</ul><!--//nav-->
 				</div><!--//navabr-collapse-->
@@ -76,30 +75,23 @@
 			<div class="row">
 			<div class="col-md-12">   
 			<!--/stories-->
-
-			
 			<div class="row">    
 			<br>
 			<div class="col-md-3 col-sm-3 text-center">
-			<a class="img-container"><img src="pictures/wks1s.jpg" style="width:280px"></a>
+			<a class="img-container"><img src="pictures/second_edition.jpg" style="width:280px;height:169px"></a>
 			</div>
 			<div class="col-md-9 col-sm-5 text-justify">
-			<h3>Workshop Capgemini - 22.06.2015</h3>
+			<h3>Drugie warsztaty - 7.02.2015</h3>
 			<div class="row">
 			<div class="col-xs-12">
-			<p>
-				Po wymagających warsztatach z dziećmi przyszedł czas na odpoczynek ;), zajęcia ze starszą grupą 24+. 
-				Na warsztat wzięliśmy ze sobą Makeblock'i a uczestnicy po wprowadzeniu teoretycznym mieli za zadanie 
-				samodzielne skonstruowanie robotów a następnie zaprogramowanie ich, aby mogły wziąć udział w zawodach line followerów.
-				Emocje towarzyszące rewalizacji niezapomniane :)
-			</p>
+			<p>Do drugich warsztatów podeszliśmy już nieco spokojniej dzięki wcześniejszemu doświadczeniu. Przyniosły one wiele uśmiechu, a pokaz uświetniła projekcja filmu 
+			powstałego w trakcie zajęć.</p>
 			</div>
 			<div class="col-xs-3"></div>
 			</div>
 			<br>
 			</div>
 			</div>
-			<hr>
 			        
 			<!--/stories-->       
 			<br><br>
