@@ -60,7 +60,8 @@
 						<li class="nav-item"><a href="index.html#oNas">O nas</a></li>
 						<li class="nav-item"><a href="index.html#zespol">Nasz zespół</a></li>
 						<li class="nav-item"><a href="index.html#coRobimy">Co robimy</a></li>
-						<li class="nav-item"><a href="index.html#wydarzenia">Wydarzenia</a></li>                   
+						<li class="nav-item"><a href="index.html#wydarzenia">Wydarzenia</a></li>  
+						<li class="nav-item"><a href="index.html#partnerzy">Partnerzy</a></li>                     
 						<li class="nav-item last"><a href="index.html#kontakt">Kontakt</a></li>
 					</ul><!--//nav-->
 				</div><!--//navabr-collapse-->
