@@ -4,7 +4,7 @@ $(document).ready(function() {
 	
 	sectionsColor: ['#17baef', '#f5f5f5', '#f5f5f5', '#17baef', '#f5f5f5', '#17baef'],
 				responsive: 900,
-				anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'kontakt'],
+				anchors: ['stronaGlowna', 'oNas', 'zespol', 'coRobimy', 'wydarzenia', 'partnerzy','kontakt'],
 				menu: '#menu',
 				scrollOverflow: true
 
@@ -29,19 +29,6 @@ $(document).ready(function() {
 	$("[id*='links']").mouseleave(function(){
 		$(this).attr("title", "");
 	});
-
-	$("[id*='eventPicture']").mouseenter(function(){
-		var $text = $('.col-md-9');
-    		$text.removeClass('col-md-9').addClass('col-md-6 col-md-offset-3');
-		$(this).width(550);
-	});
-	$("[id*='eventPicture']").mouseleave(function(){
-		var $text = $('.col-md-6');
-    		$text.removeClass('col-md-6').addClass('col-md-9');
-		$text.removeClass('col-md-offset-3');
-		$(this).width(280);
-	});
-
 });
 	
 
